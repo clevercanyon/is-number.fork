@@ -4,7 +4,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "name": "@clevercanyon/is-number.fork",
   "description": "Returns true if a number or string value is a finite number.",
   "repository": "https://github.com/clevercanyon/is-number.fork",

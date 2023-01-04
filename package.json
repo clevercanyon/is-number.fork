@@ -1,5 +1,8 @@
 {
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "version": "7.0.3",
   "name": "@clevercanyon/is-number.fork",

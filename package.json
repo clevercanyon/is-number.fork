@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "7.0.8",
+	"version": "7.0.9",
 	"license": "MIT",
 	"name": "@clevercanyon/is-number.fork",
 	"description": "Returns true if a number or string value is a finite number.",
@@ -26,7 +26,9 @@
 	"files": ["/index.js"],
 	"bin": {},
 	"imports": {},
-	"exports": [],
+	"exports": {
+		".": "./index.js"
+	},
 	"sideEffects": [],
 	"module": "",
 	"main": "./index.js",

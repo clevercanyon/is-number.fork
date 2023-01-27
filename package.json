@@ -1,32 +1,78 @@
 {
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
-  "version": "7.0.7",
-  "name": "@clevercanyon/is-number.fork",
-  "description": "Returns true if a number or string value is a finite number.",
-  "repository": "https://github.com/clevercanyon/is-number.fork",
-  "homepage": "https://github.com/clevercanyon/is-number.fork#readme",
-  "bugs": "https://github.com/clevercanyon/is-number.fork/issues",
-  "funding": "https://github.com/sponsors/clevercanyon",
-  "keywords": [
-    "clevercanyon"
-  ],
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "contributors": [
-    {
-      "name": "Clever Canyon",
-      "url": "https://clevercanyon.com"
-    }
-  ],
-  "files": [
-    "/index.js"
-  ],
-  "main": "./index.js",
-  "unpkg": "./index.js"
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "7.0.8",
+	"license": "MIT",
+	"name": "@clevercanyon/is-number.fork",
+	"description": "Returns true if a number or string value is a finite number.",
+	"repository": "https://github.com/clevercanyon/is-number.fork",
+	"homepage": "https://github.com/clevercanyon/is-number.fork#readme",
+	"bugs": "https://github.com/clevercanyon/is-number.fork/issues",
+	"funding": "https://github.com/sponsors/clevercanyon",
+	"keywords": ["clevercanyon"],
+	"author": {
+		"name": "Jon Schlinkert",
+		"url": "https://github.com/jonschlinkert"
+	},
+	"contributors": [
+		{
+			"name": "Clever Canyon",
+			"url": "https://clevercanyon.com"
+		}
+	],
+	"type": "commonjs",
+	"files": ["/index.js"],
+	"bin": {},
+	"imports": {},
+	"exports": [],
+	"sideEffects": [],
+	"module": "",
+	"main": "./index.js",
+	"browser": "",
+	"unpkg": "./index.js",
+	"types": "",
+	"typesVersions": {},
+	"dependencies": {},
+	"peerDependencies": {},
+	"peerDependenciesMeta": {},
+	"optionalDependencies": {},
+	"bundleDependencies": [],
+	"devDependencies": {
+		"@clevercanyon/skeleton-dev-deps": "^1.0.95"
+	},
+	"overrides": {},
+	"workspaces": [],
+	"cpu": ["x64", "arm64"],
+	"os": ["darwin", "linux"],
+	"engines": {
+		"node": "^19.2.0 || ^19.4.0",
+		"npm": "^8.19.3 || ^9.2.0"
+	},
+	"config": {
+		"c10n": {
+			"&": {
+				"dotfiles": {
+					"lock": []
+				},
+				"build": {
+					"appType": "",
+					"targetEnv": ""
+				},
+				"github": {
+					"teams": {
+						"engineers": "pull",
+						"architects": "push"
+					},
+					"labels": {},
+					"configVersion": "1.0.1",
+					"envsVersion": ""
+				},
+				"npmjs": {
+					"configVersions": "1.0.1,1.0.0"
+				}
+			}
+		}
+	}
 }

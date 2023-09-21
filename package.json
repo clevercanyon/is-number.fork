@@ -1,83 +1,83 @@
 {
-	"private": false,
-	"publishConfig": {
-		"access": "public"
-	},
-	"version": "7.0.54",
-	"license": "MIT",
-	"name": "@clevercanyon/is-number.fork",
-	"description": "Returns true if a number or string value is a finite number.",
-	"repository": "https://github.com/clevercanyon/is-number.fork",
-	"homepage": "https://github.com/clevercanyon/is-number.fork#readme",
-	"bugs": "https://github.com/clevercanyon/is-number.fork/issues",
-	"funding": "https://github.com/sponsors/clevercanyon",
-	"keywords": ["clevercanyon"],
-	"author": {
-		"name": "Jon Schlinkert",
-		"url": "https://github.com/jonschlinkert"
-	},
-	"contributors": [
-		{
-			"name": "Clever Canyon",
-			"url": "https://clevercanyon.com"
-		}
-	],
-	"type": "commonjs",
-	"files": ["/index.js"],
-	"bin": {},
-	"imports": {},
-	"exports": null,
-	"sideEffects": [],
-	"module": "",
-	"main": "./index.js",
-	"browser": "",
-	"unpkg": "",
-	"types": "",
-	"typesVersions": {},
-	"dependencies": {},
-	"peerDependencies": {},
-	"peerDependenciesMeta": {},
-	"optionalDependencies": {},
-	"bundleDependencies": [],
-	"devDependencies": {
-		"@clevercanyon/dev-deps": "^1.0.215"
-	},
-	"overrides": {},
-	"cpu": ["x64", "arm64"],
-	"os": ["darwin", "linux"],
-	"engines": {
-		"node": "^19.1.0 || ^20.5.1",
-		"npm": "^8.19.3 || ^9.2.0"
-	},
-	"config": {
-		"c10n": {
-			"&": {
-				"dotfiles": {
-					"lock": []
-				},
-				"build": {
-					"appType": "",
-					"targetEnv": "",
-					"entryFiles": []
-				},
-				"ssrBuild": {
-					"appType": "",
-					"targetEnv": "",
-					"entryFiles": []
-				},
-				"github": {
-					"teams": {
-						"engineers": "pull",
-						"architects": "push"
-					},
-					"labels": {},
-					"configVersion": "1.0.9",
-					"envsVersion": ""
-				},
-				"npmjs": {
-					"configVersions": "1.0.9,1.0.9"
-				}
-			}
-		}
-	}
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "version": "7.0.55",
+    "license": "MIT",
+    "name": "@clevercanyon/is-number.fork",
+    "description": "Returns true if a number or string value is a finite number.",
+    "repository": "https://github.com/clevercanyon/is-number.fork",
+    "homepage": "https://github.com/clevercanyon/is-number.fork#readme",
+    "bugs": "https://github.com/clevercanyon/is-number.fork/issues",
+    "funding": "https://github.com/sponsors/clevercanyon",
+    "keywords": ["clevercanyon"],
+    "author": {
+        "name": "Jon Schlinkert",
+        "url": "https://github.com/jonschlinkert"
+    },
+    "contributors": [
+        {
+            "name": "Clever Canyon",
+            "url": "https://clevercanyon.com"
+        }
+    ],
+    "type": "commonjs",
+    "files": ["/index.js"],
+    "bin": {},
+    "imports": {},
+    "exports": null,
+    "sideEffects": [],
+    "module": "",
+    "main": "./index.js",
+    "browser": "",
+    "unpkg": "",
+    "types": "",
+    "typesVersions": {},
+    "dependencies": {},
+    "peerDependencies": {},
+    "peerDependenciesMeta": {},
+    "optionalDependencies": {},
+    "bundleDependencies": [],
+    "devDependencies": {
+        "@clevercanyon/dev-deps": "^1.0.227"
+    },
+    "overrides": {},
+    "cpu": ["x64", "arm64"],
+    "os": ["darwin", "linux"],
+    "engines": {
+        "node": "^19.1.0 || ^20.5.1",
+        "npm": "^8.19.3 || ^9.2.0"
+    },
+    "config": {
+        "c10n": {
+            "&": {
+                "dotfiles": {
+                    "lock": []
+                },
+                "build": {
+                    "appType": "",
+                    "targetEnv": "",
+                    "entryFiles": []
+                },
+                "ssrBuild": {
+                    "appType": "",
+                    "targetEnv": "",
+                    "entryFiles": []
+                },
+                "github": {
+                    "teams": {
+                        "engineers": "pull",
+                        "architects": "push"
+                    },
+                    "labels": {},
+                    "configVersion": "1.0.9",
+                    "envsVersion": ""
+                },
+                "npmjs": {
+                    "configVersions": "1.0.9,1.0.9"
+                }
+            }
+        }
+    }
 }

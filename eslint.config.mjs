@@ -21,8 +21,8 @@ export default await (async () => {
     return $obj.mergeDeep({}, await baseConfig(), {
         $concat: {
             'config[0].ignores': [
-                'index{,.d}.' + extensions.asBracedGlob([...extensions.allJavaScript, ...extensions.allTypeScript]), //
-                '{lib,src,tests}/**/*.' + extensions.asBracedGlob([...extensions.allJavaScript, ...extensions.allTypeScript]),
+                'index{,.d}.' + extensions.asBracedGlob([...extensions.byDevGroup.allJavaScript, ...extensions.byDevGroup.allTypeScript]), //
+                '{lib,src,tests}/**/*.' + extensions.asBracedGlob([...extensions.byDevGroup.allJavaScript, ...extensions.byDevGroup.allTypeScript]),
             ],
         },
     }).config;

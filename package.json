@@ -3,7 +3,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "version": "7.0.94",
+    "version": "7.0.95",
     "license": "MIT",
     "name": "@clevercanyon/is-number.fork",
     "description": "Returns true if a number or string value is a finite number.",
@@ -40,7 +40,7 @@
     "optionalDependencies": {},
     "bundleDependencies": [],
     "devDependencies": {
-        "@clevercanyon/dev-deps": "^1.0.320"
+        "@clevercanyon/dev-deps": "^1.0.321"
     },
     "overrides": {},
     "cpu": ["x64", "arm64"],

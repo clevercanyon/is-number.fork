@@ -30,7 +30,7 @@ export default async () => {
         // This is Clever Canyon’s account ID. ↓
         defaultAccountId: 'f1176464a976947aa5665d989814a4b1',
 
-        compatibilityDate: '2023-12-01',
+        compatibilityDate: '2024-03-02',
         compatibilityFlags: [], // None, for now.
 
         defaultLocalIP: '0.0.0.0',
@@ -57,7 +57,7 @@ export default async () => {
         defaultWorkersDevZoneName: 'c10n.workers.dev',
         defaultWorkersDomain: 'workers.' + hop.hostname,
 
-        defaultWorkerName: pkgSlug.replace(/^workers-/iu, ''),
+        defaultWorkerName: pkgSlug, // e.g., `workers-hop-gdn-utilities`.
         defaultWorkerShortName: pkgSlug.replace(/^workers-hop-gdn-/iu, ''),
         defaultWorkerStageShortName: 'stage.' + pkgSlug.replace(/^workers-hop-gdn-/iu, ''),
 
